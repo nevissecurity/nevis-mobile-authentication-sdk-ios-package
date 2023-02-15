@@ -42,4 +42,4 @@ Or you can follow Apple's instructions about [adding package dependencies to you
 
 Nevis Mobile Authentication Client SDK is release under a commercial license. See [LICENSE](LICENSE) for details.
 
-© 2022 made with ❤ by Nevis
+© 2023 made with ❤ by Nevis
