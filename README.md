@@ -29,7 +29,7 @@ If you have your Swift package set up, adding Nevis Mobile Authentication Client
 
 ```swift
 dependencies: [
-	.package(url: "https://github.com/nevissecurity/nevis-mobile-authentication-sdk-ios-package.git", .upToNextMajor(from: "3.2.0"))
+	.package(url: "https://github.com/nevissecurity/nevis-mobile-authentication-sdk-ios-package.git", .upToNextMajor(from: "3.3.0"))
 ]
 ```
 
