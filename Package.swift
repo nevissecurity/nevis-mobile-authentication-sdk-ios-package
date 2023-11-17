@@ -2,8 +2,8 @@
 
 import PackageDescription
 
-let version = "3.5.1"
-let checksum = "c23a549e7aa86483ab02b6cff549221c06fc6e5c21b9da2384ee622bb261f619"
+let version = "3.5.2"
+let checksum = "192e071fb9aeb4233a9335d0f89b4e4dfefe1c5d3a928e1e8b7817be828e3714"
 
 let package = Package(
 	name: "NevisMobileAuthentication",
