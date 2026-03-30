@@ -1,4 +1,8 @@
-![Nevis Logo](https://www.nevis.net/hubfs/Nevis/images/logotype.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://www.nevis.net/hubfs/Nevis%202023%20theme/Icons/negativ.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://www.nevis.net/hubfs/Nevis%202023%20theme/Icons/positiv.svg">
+  <img alt="Fallback image description" src="https://www.nevis.net/hubfs/Nevis/images/logotype.svg">
+</picture>
 
 # Nevis Mobile Authentication Client SDK
 
@@ -13,6 +17,9 @@ The Nevis Mobile Authentication Client SDK is a software development kit to deve
 # Installation
 
 ## CocoaPods
+
+> [!WARNING]
+> The CocoaPods Specs repository will [become read-only](https://blog.cocoapods.org/CocoaPods-Specs-Repo) at the end of 2026. CocoaPods support for this SDK will be discontinued at that time. We strongly recommend migrating to [Swift Package Manager](#swift-package-manager).
 
 [CocoaPods](https://cocoapods.org/) is a dependency manager for Cocoa projects. For usage and installation instructions, visit their website. To integrate Nevis Mobile Authentication Client SDK into your Xcode project using CocoaPods, specify it in your Podfile:
 
@@ -34,9 +41,6 @@ dependencies: [
 ```
 
 Or you can follow Apple's instructions about [adding package dependencies to your app](https://developer.apple.com/documentation/xcode/adding-package-dependencies-to-your-app).
-
-> NOTE   
-> Currently only the `release` flavour is released as SPM package.
 
 # License
 
